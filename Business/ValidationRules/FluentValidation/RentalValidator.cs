@@ -21,10 +21,12 @@ namespace Business.ValidationRules.FluentValidation
 
             RuleFor(r => r.ReturnDate).GreaterThan(r => r.RentDate).NotEmpty();
 
+         
+
 
         }
 
-        
+     
     }
 }
 

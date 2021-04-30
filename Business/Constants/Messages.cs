@@ -40,12 +40,14 @@ namespace Business.Constants
         public static string CarImageNameInvalid = "Araba Resmi Ismi Geçersiz";
         public static string CarImagesListed = "Araba Resmi Listelendi";
         public static string CarImageCountOfCarError = "Bir Arabanın En Fazla 5 Resmi Olabilir";
-        internal static string AuthorizationDenied="Yetkiniz Yok";
-        internal static string UserRegistered="Kayıt Olundu";
-        internal static string UserNotFound="Kullanıcı Bulunamadı";
-        internal static string PasswordError="Şifre Yanlış";
-        internal static string SuccessfulLogin="Başarılı Giriş";
-        internal static string UserAlreadyExists="Kullanıcı Zaten Var";
-        internal static string AccessTokenCreated="Token Oluşturuldu";
+        public static string AuthorizationDenied="Yetkiniz Yok";
+        public static string UserRegistered="Kayıt Olundu";
+        public static string UserNotFound="Kullanıcı Bulunamadı";
+        public static string PasswordError="Şifre Yanlış";
+        public static string SuccessfulLogin="Başarılı Giriş";
+        public static string UserAlreadyExists="Kullanıcı Zaten Var";
+        public static string AccessTokenCreated="Token Oluşturuldu";
+        public static string RentalsListed= "Kiralanan Araba bilgileri listelrndi";
+       
     }
 }
